@@ -1,2 +1,9 @@
 # Python_Https_Server
-Script tp spin up Https server python
+Script to spin up Https server python
+
+
+Create .pem cert :
+
+```
+openssl req -new -x509 -keyout san3.pem -out san3.pem -days 365 -nodes
+```
